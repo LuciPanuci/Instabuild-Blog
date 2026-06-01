@@ -1,6 +1,9 @@
 # instabuild-blog
 
-Drop-in React blog powered by [InstaBuild](https://instabuild.website)'s AI blog engine.
+Drop-in React blog powered by [InstaBuild](https://app.instabuild.website)'s AI blog engine.
+
+- **App:** [app.instabuild.website](https://app.instabuild.website) — create posts, get your `orgId`
+- **Source:** [github.com/LuciPanuci/Instabuild-Blog](https://github.com/LuciPanuci/Instabuild-Blog)
 
 One prop. Full blog. Headless styling.
 
