@@ -1,0 +1,50 @@
+{
+  "name": "instabuild-blog",
+  "version": "0.1.1",
+  "description": "Drop-in React blog powered by InstaBuild's AI blog engine. One prop, full blog.",
+  "keywords": [
+    "react",
+    "blog",
+    "ai",
+    "instabuild",
+    "headless",
+    "supabase"
+  ],
+  "homepage": "https://github.com/LuciPanuci/Instabuild-Blog#readme",
+  "bugs": {
+    "url": "https://github.com/LuciPanuci/Instabuild-Blog/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuciPanuci/Instabuild-Blog.git"
+  },
+  "license": "MIT",
+  "main": "dist/instabuild-blog.umd.js",
+  "module": "dist/instabuild-blog.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/instabuild-blog.es.js",
+      "require": "./dist/instabuild-blog.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2",
+    "react-icons": "^5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4",
+    "vite": "^5"
+  }
+}
